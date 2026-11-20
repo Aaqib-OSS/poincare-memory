@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented here. The format follows Keep a Changelog; versions follow SemVer.
 
+## [Unreleased]
+### Added
+- Add `--root` to the `tree` CLI command to print a selected memory subtree.
+
 ## [0.1.4] — 2026-10-22
 ### Fixed
 - Documentation: the scoring explanation (README "How scoring works" and Concepts) gave an angular crossover figure derived from the large-depth approximation of the Poincaré distance, which is inaccurate at the default depths; replaced with exact figures. The default shell metric and all behaviour are unchanged.
